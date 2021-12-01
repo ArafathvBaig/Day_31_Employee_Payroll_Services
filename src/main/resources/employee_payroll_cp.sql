@@ -34,3 +34,10 @@ alter table employee_payroll add net_pay double not null after tax;
 update employee_payroll set department = 'Sales' where name = 'Terisa';
 insert into employee_payroll (name, department, gender, basic_pay, deductions, taxable_pay, tax, net_pay, startDate) values
 ('Terisa', 'Marketting', 'F', 3000000.00, 100000.00, 200000.00, 500000.00, 1500000.00, '2018-01-03');
+show tables;
+desc employee;
+desc payroll;
+desc company;
+desc department;
+
+
